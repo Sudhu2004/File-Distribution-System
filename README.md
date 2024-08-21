@@ -63,7 +63,26 @@ Group management is a critical feature of this tool, allowing the sender to mana
 
 - **senderop.py (UDP_ACK)**: Provides functionalities for creating, viewing, and deleting groups, adding clients to groups, and managing file distribution to these groups.
 
-
+- **Functionalities provided for Sender**
+  1. Create Group
+  2. Delete Group
+  3. Add Client to Group
+  4. Remove Client from Group
+  5. List Groups
+  6. Add File to Pending List
+  7. Send Pending Files
+  8. View Pending Files Status
+  9. View Join Requests
+  10. Approve Join Request
+  11. View Client Groups
+  12. Check Active Receivers
+  13. View Group Members
+      
+- **Functionalities provided for Receiver**
+  1. Request and List Available Groups
+  2. Join Group
+  3. View My Groups
+     
 ## Getting Started
 
 ### Prerequisites
