@@ -1,6 +1,6 @@
 # File-Distribution Tool - System Callers
 
-**File-Distribution Tool** is a robust file-sharing system that supports multiple protocols, designed for efficient and reliable file distribution across networks. This project was developed as part of the Tally CodeBrewers 2024 Hackathon, where we secured 2nd runner-up under the theme "Wizard of System Programming."
+**File-Distribution Tool** is a robust file-sharing system that supports multiple protocols, designed for efficient and reliable file distribution across networks. This project was developed as part of the Tally CodeBrewers 2024 Hackathon, where we secured 2nd runner-up 🏆under the theme "Wizard of System Programming."
 
 ## Project Structure
 
