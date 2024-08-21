@@ -26,7 +26,7 @@ The `TCP` folder contains the implementation of the file-sharing system using th
 
 ### 2. UDP_ACK
 
-The `UDP_ACK` folder implements file transfer using the UDP protocol with acknowledgment mechanisms to ensure reliable delivery. The files are retransferred incase the ACK files are not received due to data packet loss.
+The `UDP_ACK` folder implements file transfer using the UDP protocol with acknowledgment mechanisms to ensure reliable delivery. The files are retransferred incase the ACK files are not received.
 
 - **Main Components**:
   - **senderop.py**: 
