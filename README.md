@@ -51,6 +51,19 @@ The `UDP_no_ack` folder contains an implementation of file transfer using the UD
   1. Run `admin.py` to start sending files.
   2. Run `member.py` on client machines to receive files.
 
+
+- **Multithreading**: Multithreading is utilized in all the 3 approaches to manage multiple clients and file transfers concurrently by creating new threads for each group.
+- **Multicasting**: Multicasting has been used in the UDP file transfer methods, allowing files to be sent to multiple clients simultaneously, optimizing network usage.
+  
+## Group Management
+
+Group management is a critical feature of this tool, allowing the sender to manage multiple clients and their access to files.
+
+- **group_management.py (TCP folder)**: Manages group creation, viewing, and deletion, as well as handling client requests to join groups. This script creates a pickle file to store group management data.
+
+- **senderop.py (UDP_ACK)**: Provides functionalities for creating, viewing, and deleting groups, adding clients to groups, and managing file distribution to these groups.
+
+
 ## Getting Started
 
 ### Prerequisites
