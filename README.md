@@ -64,7 +64,7 @@ The `UDP_no_ack` folder contains an implementation of file transfer using the UD
 Clone the repository:
 
 ```bash
-git clone https://github.com/Sudhu2004/File-Distribution-System
+git clone https://github.com/Sudhu2004/File-Distribution-System.git
 cd File-Distribution-System
 ```
 ## Running the Project
