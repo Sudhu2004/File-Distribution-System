@@ -59,7 +59,7 @@ The `UDP_no_ack` folder contains an implementation of file transfer using the UD
 
 Group management is a critical feature of this tool, allowing the sender to manage multiple clients and their access to files.
 
-- **group_management.py (TCP folder)**: Manages group creation, viewing, and deletion, as well as handling client requests to join groups. This script creates a pickle file to store group management data. Separate threads for groups and threads for clients for transferring files are simulataneosly created in case of TCP.
+- **group_management.py (TCP folder)**: Manages group creation, viewing, and deletion, as well as handling client requests to join groups. This script creates a pickle file to store group management data. Separate threads for groups and threads for clients inorder to transfer files are created simulataneosly in case of TCP.
 
 - **senderop.py (UDP_ACK)**: Provides functionalities for creating, viewing, and deleting groups, adding clients to groups, and managing file distribution to these groups. For each group a separate thread is run for sending files in sender and receving files in receiver in case of UDP.
 and the multicasting takes care of sending the data to clients.
